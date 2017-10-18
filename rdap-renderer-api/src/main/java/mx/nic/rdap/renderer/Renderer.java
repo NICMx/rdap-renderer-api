@@ -18,12 +18,6 @@ import mx.nic.rdap.renderer.object.SearchResponse;
  */
 public interface Renderer {
 
-	/** Content types that trigger this renderer. */
-	public String[] getRequestContentTypes();
-
-	/** Content type this renderer returns. */
-	public String getResponseContentType();
-
 	public void renderEntity(RequestResponse<Entity> response, PrintWriter printWriter);
 
 	public void renderDomain(RequestResponse<Domain> response, PrintWriter printWriter);
