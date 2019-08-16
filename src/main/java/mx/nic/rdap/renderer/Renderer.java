@@ -13,7 +13,7 @@ import mx.nic.rdap.renderer.object.RequestResponse;
 import mx.nic.rdap.renderer.object.SearchResponse;
 
 /**
- * A response formatter. Transforms a {@link RdapResult} to something the user
+ * A response formatter. Transforms a <code>mx.nic.rdap.server.result.RdapResult</code> to something the user
  * can parse.
  */
 public interface Renderer {
